@@ -5,8 +5,9 @@ import { PAGE_SCRIPT_JS_STRING } from './_page-script-js-string'
 const GOOGLE_TAG_ID = ''
 
 export const SITE_CONFIG: NoteHostSiteConfig = {
-  domain: '<%= domainName %>',
-
+  notionPageId: 'TYMICO-277ed8d48d138086b9f8e51d2f403123',
+  domain: 'tymico-catalog.bosawork324.workers.dev',
+};
   // Metatags, optional
   // For main page link preview
   siteName: '<%= siteName %>',
@@ -31,7 +32,7 @@ export const SITE_CONFIG: NoteHostSiteConfig = {
     about: 'NOTION_PAGE_ID',
     // Hint: you can use '/' in slug name to create subpages
     'about/people': 'NOTION_PAGE_ID',
-  },
+  },  
 
   // Rewrite meta tags for specific pages
   // Use the Notion page ID as the key
