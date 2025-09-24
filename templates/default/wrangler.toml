@@ -1,6 +1,6 @@
-name = "<%= wranglerWorkerName %>"
+name = "tymico-notehost"
 main = "src/index.ts"
-compatibility_date = "2024-01-08"
+compatibility_date = "2025-09-24"
 workers_dev = true
 
 routes = [
