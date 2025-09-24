@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to Cloudflare
         run: npx wrangler@4 deploy
         env:
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}  # 添加 Cloudflare API Token
+          CF_API_TOKEN: ${{ hzAFcL-PYEJFe_UDFoYBGnVjamylrWC6akQAKft3 }}  # 添加 Cloudflare API Token
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
